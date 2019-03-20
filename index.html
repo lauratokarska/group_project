@@ -1,58 +1,56 @@
 <!DOCTYPE html>
 <html>
 <title>Edinburgh Coffee Spots!</title>
-<meta charset="UTF-8">
-<src="http://code.jquery.com/jquery-3.3.1.min.js"
-      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-      crossorigin="anonymous">
-
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
-<!-- Font Awesome Icon Library -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" type="text/css" href="css/styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
 
 <body>
 
-<!-- Sidebar (hidden by default) -->
-<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
-  <a href="javascript:void(0)" onclick="w3_close()"
-  class="w3-bar-item w3-button">Close Menu</a>
-  <a href="about.html" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
+  <!-- Sidebar (hidden by default) -->
+  <nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+    <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button">Close Menu</a>
+    <a href="about.html" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
+    <a href="addareview.html" onclick="w3_close()" class="w3-bar-item w3-button">Add a review</a>
+  </nav>
 
-  <a href="addareview.html" onclick="w3_close()" class="w3-bar-item w3-button">Add a review</a>
-</nav>
-
-<!-- Top menu -->
-<div class="w3-top">
-  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
-    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
-    <div class="w3-center w3-padding-16">Edinburgh Coffee Spots!</div>
+  <!-- Top menu -->
+  <div class="w3-top">
+    <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+      <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+      <div class="w3-center w3-padding-16">Edinburgh Coffee Spots!</div>
+    </div>
   </div>
-</div>
 
-<!-- !PAGE CONTENT! -->
-<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+  <!-- !PAGE CONTENT! -->
+  <div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
 
   <!-- First Photo Grid-->
+  <!--Brew Lab-->
   <div class="w3-row-padding w3-padding-16 w3-center" id="main-cafes">
     <div class="w3-quarter">
       <img src="./images/brewlab.jpg" alt="Brew Lab" style="width:100%">
-    <h3>  <a href="https://www.brewlabcoffee.co.uk/"> Brew Lab </a> </h3>
+    <h3> <a href="https://www.brewlabcoffee.co.uk/"> Brew Lab </a> </h3>
+
         <span class="fa fa-star checked"></span>
         <span class="fa fa-star checked"></span>
         <span class="fa fa-star checked"></span>
         <span class="fa fa-star"></span>
         <span class="fa fa-star"></span>
+
         <p>  One of the coolest places to study alone or for group projects... Gather with your friends, grab a coffee and enjoy the healthy snacks...</p>
-      <ul style="list-style-type:none">
-          <li> &#x1f44d; Wi-Fi </li>
-          <li> &#x1f44d; big tables </li>
-          <li> &#x1F44E; expensive </li>
-          <li> &#x1F44E; busy on the weekdays </li>
-      </ul>
+
+            <ul style="list-style-type:none">
+                <li> &#x1f44d; Wi-Fi </li>
+                <li> &#x1f44d; big tables </li>
+                <li> &#x1F44E; expensive </li>
+                <li> &#x1F44E; busy on the weekdays </li>
+            </ul>
     </div>
+
+    <!--Black Medicine Coffee-->
     <div class="w3-quarter">
       <img src="./images/blackmedicinecoffee.jpg" alt="blackmedicinecofee" style="width:100%">
       <h3> <a href="https://www.blackmed.co.uk/"> Black Medicine Coffee </a> </h3>
@@ -62,7 +60,9 @@
         <span class="fa fa-star"></span>
         <span class="fa fa-star"></span>
         <span class="fa fa-star"></span>
+
         <p> Take your laptop and all your liabilities to Black Medicine, grab a coffee and sit infront of the window OR be there with your friends and enjoy the different taste of coffees...</p>
+
         <ul style="list-style-type:none">
             <li> &#x1f44d; coffee is good but pricey </li>
             <li> &#x1f44d; quite cosy </li>
@@ -70,6 +70,8 @@
             <li> &#x1F44E; poor lighting </li>
         </ul>
     </div>
+
+      <!--The New Amphion-->
     <div class="w3-quarter">
       <img src="./images/thenewamphion.jpg" alt="thenewamphion" style="width:100%">
       <h3> <a href="https://www.eusa.ed.ac.uk/our_venues/teviot/the_new_amphion/"> Teviot's New Amphion </a> </h3>
@@ -79,7 +81,9 @@
         <span class="fa fa-star checked"></span>
         <span class="fa fa-star checked"></span>
         <span class="fa fa-star"></span>
+
           <p>Close to University of Edinburgh George Square campuss, best coffees, and always competing prices with a bunch of study spots...</p>
+
           <ul style="list-style-type:none">
               <li> &#x1f44d; cheap </li>
               <li> &#x1f44d; cosy </li>
@@ -88,9 +92,12 @@
           </ul>
 
     </div>
+
+      <!--Machina Espresso-->
     <div class="w3-quarter">
       <img src="./images/machinaespresso.jpg" alt="machinaespresso" style="width:100%">
       <h3> <a href="https://machina-coffee.co.uk/pages/coffee-shop"> Machina Espresso </a> </h3>
+
         <span class="fa fa-star checked"></span>
         <span class="fa fa-star checked"></span>
         <span class="fa fa-star checked"></span>
@@ -98,6 +105,7 @@
         <span class="fa fa-star"></span>
 
         <p> If you want to get rid off the daily stress and spend some time on cosy place,especially to read, answer mails and handle all other necessities of life... Machinaespresso is delivering all...</p>
+
         <ul style="list-style-type:none">
             <li> &#x1f44d; good coffee </li>
             <li> &#x1f44d; cosy </li>
@@ -108,17 +116,20 @@
   </div>
 
     <!-- Second Photo Grid-->
-
+    <!--Thomas J. Walls-->
     <div class="w3-row-padding w3-padding-16 w3-center" id="food">
       <div class="w3-quarter">
         <img src="./images/thomasjwalls.jpg" alt="ThomasJ.Walls" style="width:100%">
-      <h3>  <a href="https://www.facebook.com/pages/Thomas-J-Walls/147270558642913"> Thomas J. Walls </a> </h3>
+        <h3> <a href="https://www.facebook.com/pages/Thomas-J-Walls/147270558642913"> Thomas J. Walls </a> </h3>
+
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star"></span>
           <span class="fa fa-star"></span>
           <span class="fa fa-star"></span>
+
           <p> Great coffee and a fab aumbience. A nice spot for lunch with friends but less ideal for studiyng... </p>
+
         <ul style="list-style-type:none">
             <li> &#x1f44d; nice food menu </li>
             <li> &#x1f44d; good tables </li>
@@ -126,17 +137,20 @@
             <li> &#x1F44E; No Wi-Fi </li>
         </ul>
       </div>
+
+      <!--Levels-->
       <div class="w3-quarter">
         <img src="./images/levels.jpg" alt="levels" style="width:100%">
         <h3> <a href="https://www.accom.ed.ac.uk/for-students/our-cafes/holyrood-road/"> Levels </a> </h3>
-
 
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star"></span>
+
           <p> A great place for an afternoon coffee or one of your more social meetings. The lunch is delicious, but everyone knows it so get there nice and early... </p>
+
           <ul style="list-style-type:none">
               <li> &#x1f44d; low prices </li>
               <li> &#x1f44d; modern decor</li>
@@ -144,6 +158,8 @@
               <li> &#x1F44E; poor lighting </li>
           </ul>
       </div>
+
+      <!--Lovecrumbs-->
       <div class="w3-quarter">
         <img src="./images/lovecrumbs.webp" alt="lovecrumbs" style="width:100%">
         <h3> <a href="http://www.lovecrumbs.co.uk/"> Love Crumbs </a> </h3>
@@ -153,18 +169,22 @@
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star checked"></span>
+
             <p>For all those cake lovers. A sweet spot for the occasional treat...</p>
+
             <ul style="list-style-type:none">
                 <li> &#x1f44d; great cakes </li>
                 <li> &#x1f44d; pretty interior </li>
                 <li> &#x1F44E; can be busy </li>
                 <li> &#x1F44E; tables not the biggest </li>
             </ul>
-
       </div>
+
+      <!--Soderberg Pavilion-->
       <div class="w3-quarter">
         <img src="./images/soderberg.jpg" alt="soderberg" style="width:100%">
         <h3> <a href="http://www.soderberg.uk/soderberg-pavilion"> Söderberg Pavilion </a> </h3>
+
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star checked"></span>
@@ -172,6 +192,7 @@
           <span class="fa fa-star"></span>
 
           <p> Engrose yourself in a Scandanavian cafe and enjoy the boho vibe... </p>
+
           <ul style="list-style-type:none">
               <li> &#x1f44d; good coffee </li>
               <li> &#x1f44d; cosy, Scandinavian decor </li>
@@ -191,17 +212,16 @@
 
     </div>
 
+    <script>
+    // Script to open and close sidebar
+    function w3_open() {
+      document.getElementById("mySidebar").style.display = "block";
+    }
 
-<script>
-// Script to open and close sidebar
-function w3_open() {
-  document.getElementById("mySidebar").style.display = "block";
-}
-
-function w3_close() {
-  document.getElementById("mySidebar").style.display = "none";
-}
-</script>
+    function w3_close() {
+      document.getElementById("mySidebar").style.display = "none";
+    }
+    </script>
 
 </body>
 </html>
